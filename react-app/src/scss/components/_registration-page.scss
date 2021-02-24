@@ -1,0 +1,56 @@
+// * {
+//   margin: 0;
+//   padding: 0;
+//   border: 0;
+//   margin-top: 0 !important;
+//   }
+
+body{
+  background-color: $purple-10;
+  margin-top: 0;
+}
+
+.registration-page{
+  background-color: $white;
+  padding: 28px 114px;
+
+  h1{
+    color: $purple-60;
+    font-weight: $weight-semibold;
+  }
+  h2{
+    font-weight: $weight-semibold;
+  }
+  h3{
+    font-weight: $weight-semibold;
+  }
+  h4{
+    font-weight: $weight-semibold;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+  }
+  h5{
+    color: $purple-40;
+  }
+  p{
+    font-size: $font-size-5;
+  }
+  fieldset{
+    display: flex;
+  }
+
+  .toogle--lab-checkbox__label{
+    display: flex;
+    justify-content: space-between;
+    height: 39.96px;
+    position: relative;
+    display: inline-flex;
+    font-family: "freight-sans-pro", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    align-items: center;
+    line-height: 1.4;
+    cursor: pointer;
+  }
+}

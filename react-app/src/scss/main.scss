@@ -1,0 +1,18 @@
+// main.scss
+// Even though it is the root file for styles, this file will only have imports of other scss files
+
+// first, we import the required scss partials
+@import "variables";
+@import "base";
+
+// first, import the color variables file
+@import "~labsystem/scss/variables/_colors";
+$button-theme: $purple-palette;
+@import '~labsystem/scss/main';
+
+// then, we import our custom css
+@import "components/welcome";
+@import "components/registration-page";
+
+// finally, we import the overrides needed for customizing third-party css
+@import "overrides";
